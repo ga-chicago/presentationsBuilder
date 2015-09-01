@@ -15,4 +15,9 @@ controller.get('/', function(req, res, next) {
   res.send(model);
 });
 
+controller.post('/build', function(req, res, next) {
+    res.send({status: 420});
+});
+
+
 module.exports = controller;
